@@ -12,7 +12,7 @@ export default function MainContent(props: MainContentProps) {
 
       <div class="flex justify-center">
         <div class="flex max-w-7xl">
-          <div class="grid grid-cols-3 gap-4 p-8">
+          <div class="grid md:grid-cols-3 grid-cols-1 gap-4 p-8">
             {props.children}
           </div>
         </div>
